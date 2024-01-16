@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "promediomapa",
+  "private_key_id": "b71ffa8ace47bb18fba5cdec518dd9f2f7e3b8c6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCv47c7T3Xg3Zka\nTn9sL9q1wx0BEixvM5I+ARNlb/NzP4fSrNRa8APUVVhvTcQVJyXNcCf6qvhHkSTT\nextrmViEGiSe3267ed2LBiyb8B51DbWKQPLEB5GWON1Q4ykgxZ4U6xbjbGQHMrau\nM9U1pzE9saTWigsexrUUtPBiDMUR+A2o6dU7vC3qb7EIUIqhQwngvzbWTjJrmHuD\noeY3wGs0OHlyoBMFoPpAbZEySe6+s8/WmUdCf9ZEjmBKSkf3JAq9Pj4HiKvKTm1M\nAMztfNIdywOpiVEMmtZmDVjMZ39wiZVncE2JwwCtrzfZCyj7v5eYUOfPKAmey412\nUZkvmfXtAgMBAAECggEAB1xBoi9AkRDk48duKKJWBi4sjAttJZgkYgjcfW2yY9vA\nPM4zsryBhISvxzSbZIE3YUH0wlYePqxxvJHVw2pu3FRVvPo/oYPHhBZVjo79T0us\nEaWHIzHn4z/s7wIaif8LDvgJhKnYA78ZCvArV2vwMRM6gSnUrkyFbmDmAExlgMtt\nOMccbn+udWqkK9TjdcZMT6dxcwZZ9y6i6Q/dAUlsbLzrAVlVOOwPQ1ZwU/SkZb+H\nYwC6+fKOrnldHZuFXy9FqW78FrHIHtlaTYg+nVysXtLHzh/TcQ9eX6auNIlpJMQR\nfzFyGr2g3vPrfgIhuz8LZaUnTLUTzYDFsUHsPNvONwKBgQDq93/O9iH+DnGZIeIO\neEZLGtw2tL8aAQdowZh5JE5NyB5MAWE/QxRtHyJPq8GRRbj3WxjiIUH8GNVhnr35\nmrRbc/uj1lGxd/rvoQ8lCF15chY0VgFdrj49JXalE8t/sKSCXWDrRUqQJ0okVgBj\nvpZCnoia8eOJIOZSItzPt/WOAwKBgQC/omaw8aChu0/y/AkVpsr76zOAWBdhdLtZ\noqWuH65BoBBOjhqyIbwv10CNbN2OfTvlFMOPHmQ0hrryWeeZlA6GwUntiHVNnsdR\nhqzAzu0O4aVZZKXQp5vkoH8BdSgMDgFVYi8ADPRwSLaGeTquVX+1tepgYvMmf81R\nKoNxUqxhTwKBgQCa/2lwPS1vSlfljFRy9yRnpvBdph3qKYOZtxu9zhVZegmCWeas\ntLNkyIT5yXOHQVci1RU1FntQsZERNIZdgZA4Q+pbyaVaTKtcKAK1iy8eTgQXwiRk\nh+zGqU/61XQIZ54d4Ttt9+eX8FMYZSMcqTy19Z5nl+lhLDLDO/wtikyRwQKBgGLT\nGEwlv2XIWBmBmhm9Uy6JA50rUJtkfH1kIDbkhZO4PNCV/fRg61BsnBCS1Mr3kFy5\n0YPL83cXB++VJ5eOv9MEeOBzH7Mwr68+WXZw/9VNzlyER/KLjRxhHD4fMdDNpChp\nIr3O8Hu7M82zVOy0kNCfiMe+H5B6FeLGntRhAx6HAoGAHqmj5PKRBsbeSMahUqt4\npvfz7Dubu1HZYW/VluP799cTH6SqIJHQ0S4XQsKLkT3s7gYQmpWxvXH7yyOsdz4l\nT1aiiiMJSAi10bNRropu7JcRB1pzuQp6H+DKGw2qg/6My0DKpHHKQFOesrB03GfW\nQGutwOX3TapHfJ2TDNQBGeA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "scmx-agua-mapa@promediomapa.iam.gserviceaccount.com",
+  "client_id": "113934648654457601363",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scmx-agua-mapa%40promediomapa.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

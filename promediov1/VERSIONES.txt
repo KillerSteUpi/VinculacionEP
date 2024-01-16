@@ -1,0 +1,62 @@
+# Creamos una lista con datos:
+data = [[1.5, 11.04], 
+        [1.5, 15], 
+        [2.22, 4.65],
+        [1.5, 11.04],
+        [1.5, 11.04]]
+
+# Creamos un dataframe de ejemplo a partir de los datos y le colocamos nombre a las columnas:
+df = pd.DataFrame(data, columns = ['Columna1', 'Columna2'])
+
+# Llenamos los valores desconocidos con 0
+df['Columna1'] = df['Columna1'].fillna(0)
+
+#imprimo columnas
+#print(df['Columna1'])
+print(df)
+# Imprimimos la media de la columna
+print('El promedio de la Comlumna1 es:',df['Columna1'].mean(skipna = True))
+#print(df['Numbers_One'].mean(skipna = True))
+
+#Imprimimos la moda de la columna
+print('La moda es:',df['Columna1'].mode())
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+import matplotlib.pyplot as plt 
+import pandas as pd 
+from statistics import mean
+
+data= pd.read_csv(
+'https://raw.githubusercontent.com/asalber/manual-python/master/datos/colesteroles.csv')
+df = pd.DataFrame(data, columns = ['nombre', 'edad', 'sexo','peso','altura', 'colesterol'])
+df['altura'] = df['altura'].fillna(0)
+print("Colesterol\t","\n",df,"\n")
+print('El promedio de la Altura es:',df['altura'].mean())
+////////////////////////////////////////////////////////////////////////////////
+data= pd.read_csv(
+'https://raw.githubusercontent.com/asalber/manual-python/master/datos/colesteroles.csv', sep=';', decimal=',')
+df = pd.DataFrame(data, columns = ['nombre', 'edad', 'sexo','peso','altura', 'colesterol'])
+df['altura'] = df['altura'].fillna(0)
+print("Datos de colesterol\t","\n",df,"\n")
+print('El promedio del Peso es:',df['peso'].mean())#
+print('La moda es:\n',df['edad'].mode())
+/////////////////////////////////////////////////////////////////////////////
+
+import pandas as pd 
+from statistics import mean
+from datetime import datetime
+from numpy.random import randn
+import sys
+import gspread
+from oauth2client.service_account import ServiceAccountCredential
+
+
+data= pd.read_csv(
+'https://raw.githubusercontent.com/asalber/manual-python/master/datos/colesteroles.csv', sep=';', decimal=',')
+df = pd.DataFrame(data, columns = ['nombre', 'edad', 'sexo','peso','altura', 'colesterol'])
+promedio= df['peso'].iloc[0:4].mean(skipna = True)
+moda=df['sexo'].iloc[0:4].mode()
+print("Datos de colesterol\t","\n",df.iloc[0:4],"\n")
+print('El promedio del Peso es:',promedio)
+print('La moda del sexo es:\n',moda)
+#print(df.describe())
+
